@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+            <a href="index.html">
+            <img style="width: 6rem" src="https://us.123rf.com/450wm/jovanas/jovanas1602/jovanas160201197/52032258-logo-avi%C3%B3n-volando-alrededor-del-planeta-tierra-negro.jpg?ver=6 " alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Vuelos
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="reservaVuelo.html">Reserva tu vuelo</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="vuelosDisplonibles.html">Vuelos disponibles</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comentarios.html">Comentarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+                <h1 class="mt-4">VUELOS</h1>
+            
+                <div class="card mb-4">
+                    
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-table me-1"></i>
+                        Registro de vuelos disponibles
+                    </div>
+                    <div class="table">
+                        <table id="datatablesSimple">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Avión</th>
+                                    <th>Piloto</th>
+                                    <th>Capacidad</th>
+                                    <th>Estado</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Avión</th>
+                                    <th>Piloto</th>
+                                    <th>Capacidad</th>
+                                    <th>Estado</th>
+                                    
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td>001</td>
+                                    <td>Airbus 380</td>
+                                    <td>Jhon Ortega</td>
+                                    <td>80</td>
+                                    <td>Retrasado</td>
+                                </tr>
+                                <tr>
+                                    <td>002</td>
+                                    <td>Airbus 380</td>
+                                    <td>Felipe Ortiz</td>
+                                    <td>75</td>
+                                    <td>Ha aterrizado</td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Boeing 727</td>
+                                    <td>Daniel Cruz</td>
+                                    <td>66</td>
+                                    <td>Ha despegado</td>
+                                </tr>
+                                <tr>
+                                    <td>004</td>
+                                    <td>Boeing 787</td>
+                                    <td>Roberto Martinez</td>
+                                    <td>67</td>
+                                    <td>Ha despegado</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Airbus 320</td>
+                                    <td>Gonzalo Ariza</td>
+                                    <td>50</td>
+                                    <td>Ha aterrizado</td>
+                                </tr>
+                                <tr>
+                                    <td>006</td>nez
+                                    <td>Airbus 380</td>
+                                    <td>Luis Martinez</td>
+                                    <td>61</td>
+                                    <td>Ha despegado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>007</td>
+                                    <td>Boeing 727</td>
+                                    <td>Guillermo Vaca</td>
+                                    <td>59</td>
+                                    <td>Retrasado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>008</td>
+                                    <td>Airbus 320</td>
+                                    <td>Luis Padilla</td>
+                                    <td>55</td>
+                                    <td>Ha despegado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>009</td>
+                                    <td>Boeing 727</td>
+                                    <td>Samuel Alarcon</td>
+                                    <td>50</td>
+                                    <td>Ha aterrizado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>010</td>
+                                    <td>Airbus 320</td>
+                                    <td>Luis Restrepo</td>
+                                    <td>60</td>
+                                    <td>Ha aterrizado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>011</td>
+                                    <td>Airbus 320</td>
+                                    <td>Alberto Camargo</td>
+                                    <td>55</td>
+                                    <td>Ha despegado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>012</td>
+                                    <td>Boeing 727</td>
+                                    <td>Jorge Farfan</td>
+                                    <td>60</td>
+                                    <td>Ha despegado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>013</td>
+                                    <td>Airbus 320</td>
+                                    <td>Carlos Pérez</td>
+                                    <td>70</td>
+                                    <td>Retrasado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>014</td>
+                                    <td>Airbus 320</td>
+                                    <td>Camilo Marulanda</td>
+                                    <td>65</td>
+                                    <td>Ha aterrizado</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>015</td>
+                                    <td>Airbus 320</td>
+                                    <td>Gabriel López</td>
+                                    <td>50</td>
+                                    <td>Ha despegado</td>                                        
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid px-4">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
